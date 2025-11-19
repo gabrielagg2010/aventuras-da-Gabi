@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -8,20 +7,69 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Em busca da cidade perdida</title>
+    <title>Em busca do cuidado perfeito</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <img src="cenario-passo0.png" alt="">
-            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desses, enquanto folheava uma revista de beleza, encontrei uma carta antiga sobre os segredos do cuidado da pele. Nela, a autora deixa algumas dicas para encontrar os produtos ideais e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">Rosto Radiante</button>
+            <button class="btn-proximo" data-proximo="2">Hidratação Poderosa</button>
         </div>
         <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <p>Você começa sua jornada em busca de um rosto radiante, explorando as melhores dicas de limpeza e esfoliação.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar dicas de esfoliação</button>
             <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na seção de hidratação, você descobre que para manter a pele saudável, deve escolher os melhores hidratantes. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar cremes hidratantes</button>
+            <button class="btn-proximo" data-proximo="6">Explorar óleos naturais</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Após pesquisar sobre esfoliação, você encontra um guia com os melhores produtos e descobre que a próxima dica está com um especialista em cuidados com a pele.</p>
+            <button class="btn-proximo" data-proximo="7">Visitar o especialista</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da jornada">
+            <p>Você decide que cuidar da pele é muito complicado e volta para casa, mas sempre se pergunta o que poderia ter aprendido.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nos cremes hidratantes, você descobre uma fórmula incrível que promete resultados rápidos e decide seguir essa dica.</p>
+            <button class="btn-proximo" data-proximo="8">Escolher a fórmula</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando os óleos naturais, você encontra uma mistura poderosa, mas não tem certeza se é a escolha certa.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e investigar os cremes</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ao visitar o especialista, você recebe dicas valiosas sobre cuidados personalizados e produtos adequados para seu tipo de pele.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir as dicas do especialista</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Depois de decidir, você escolhe a fórmula do creme hidratante e inicia a sua rotina de cuidados.</p>
+            <button class="btn-proximo" data-proximo="10">Começar a rotina</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Seguindo as dicas do especialista, você descobre a combinação perfeita de produtos que transformam sua pele.</p>
+            <button class="btn-proximo" data-proximo="11">Ver resultados incríveis</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Iniciando sua rotina, você percebe uma melhora significativa na sua pele e se sente mais confiante.</p>
+            <button class="btn-proximo" data-proximo="11">Aproveitar a nova rotina</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-pele-perfeita.png" alt="resultado incrível na pele após cuidados">
+            <p>Com a nova rotina de cuidados, sua pele brilha e você se sente pronta para encarar o mundo com confiança.</p>
         </div>
     </main>
     <script src="script.js"></script>
