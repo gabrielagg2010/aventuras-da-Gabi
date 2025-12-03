@@ -39,7 +39,7 @@
 
         <div class="passo" id="passo-5">
             <p>Nos cremes hidratantes, você descobre uma fórmula incrível que promete resultados rápidos e decide seguir essa dica.</p>
-            <button class="btn-proximo" data-proximo="8">Escolher a fórmula</button>
+            <button class="btn-proximo" data-proximo="7">Escolher a fórmula</button>
         </div>
 
         <div class="passo" id="passo-6">
@@ -69,7 +69,7 @@
         </div>
 
         <div class="passo" id="passo-11">
-            <img src="img/cenario-passo11-pele-perfeita.png" alt="resultado incrível na pele após cuidados">
+            <img src="" alt="resultado incrível na pele após cuidados">
             <p>Com a nova rotina de cuidados, sua pele brilha e você se sente pronta para encarar o mundo com confiança.</p>
         </div>
     </main>
